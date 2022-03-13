@@ -1,0 +1,40 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-size: 20px;
+}
+
+.logo {
+  width: 70px;
+  margin-top: 15px;
+  margin-left: 100px;
+  border-radius: 50%;
+  height: 70px;
+  background-color: black;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: black;
+  margin-right: 200px;
+  font-family: Arial;
+}
+
+.header-right a {
+  line-height: 100px;
+  padding:  20px;
+  color: black;
+  margin-right: 5px;
+}
+
+a{
+  background-color: #7FFFD4;
+}
